@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: int_funcionarios_preparacao
+    description: Tabela intermediário para designar o gerente do funcionário.
+    columns:
+      - name: FK_GERENTE
+        description: asd
+      - name: PK_FUNCIONARIO
+        description: asd
+        data_tests:
+          - unique
+          - not_null
+      - name: DT_NASCIMENTO_FUNCIONARIO
+        description: asd
+      - name: DT_CONTRATACAO
+        description: asd
+      - name: NOME_FUNCIONARIO
+        description: asd
+      - name: CARGO_FUNCIONARIO
+        description: asd
+      - name: CIDADE_FUNCIONARIO
+        description: asd
+      - name: REGIAO_FUNCIONARIO
+        description: asd
+      - name: PAIS_FUNCIONARIO
+        description: asd
